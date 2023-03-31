@@ -1,0 +1,15 @@
+{
+  "name": "solidity-google-auth",
+  "description": "Smart Contract based Google authentication using Chainlink Oracle",
+  "author": "Lucas Henning <lucas@suku.world>",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^2.5.0",
+    "dotenv": "^16.0.3"
+  }
+}
