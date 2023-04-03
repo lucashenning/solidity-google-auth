@@ -5,6 +5,12 @@ It works by storing a keccak256 hash of the recipient's email address in the `So
 
 Google rotates public keys every 48 hours which is why an oracle is needed to fetch the latest public keys. The `JWKSOracle.sol` uses Chainlink to fetch the latest public keys from Google and store them in the contract. `SocialLock.sol` uses `JWKSOracle.sol` to verify the JWT.
 
+> For more info, check out [**this medium article**](https://luhenning.medium.com/solidity-based-social-auth-sending-crypto-to-any-google-account-ae098044bb2d). 
+
+## Demo
+[Live Demo](https://main.d17sg5l30hlk4o.amplifyapp.com/)
+
+
 ## Getting Started
 1. Clone this repo
 2. `npm i`
